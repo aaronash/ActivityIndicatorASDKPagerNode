@@ -25,13 +25,17 @@
             UIActivityIndicatorView *spinner = [[UIActivityIndicatorView alloc] initWithActivityIndicatorStyle:UIActivityIndicatorViewStyleWhiteLarge];
             [spinner sizeToFit];
             [spinner startAnimating];
+            spinner.backgroundColor = [UIColor clearColor];
             NSLog(@"spinner: %@", spinner);
             return spinner;
             
+            //it seems like this view doesn't disappear
 //            UIView *purple = [[UIView alloc] initWithFrame:CGRectMake(0, 0, 100, 100)];
 //            purple.backgroundColor = [UIColor purpleColor];
 //            return purple;
         }];
+        
+        _spinnerNode.style.preferredSize = CGSizeMake(37, 37);
         
         self.backgroundColor = [UIColor orangeColor];
         self.automaticallyManagesSubnodes = true;
@@ -45,5 +49,9 @@
                                                               child:_spinnerNode];
 }
 
+//- (CGSize)calculateSizeThatFits:(CGSize)constrainedSize
+//{
+//    return constrainedSize;
+//}
 
 @end
