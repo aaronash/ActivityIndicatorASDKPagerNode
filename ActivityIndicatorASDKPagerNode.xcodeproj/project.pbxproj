@@ -7,25 +7,30 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4DBE043A01A3C8D6F36D0920 /* libPods-ActivityIndicatorASDKPagerNode.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BBC6AF383D6884A8C991B081 /* libPods-ActivityIndicatorASDKPagerNode.a */; };
 		5E51ADAA1E6D8D09006AC655 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E51ADA91E6D8D09006AC655 /* main.m */; };
 		5E51ADAD1E6D8D09006AC655 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E51ADAC1E6D8D09006AC655 /* AppDelegate.m */; };
-		5E51ADB01E6D8D09006AC655 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E51ADAE1E6D8D09006AC655 /* Main.storyboard */; };
 		5E51ADB31E6D8D09006AC655 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E51ADB21E6D8D09006AC655 /* RootViewController.m */; };
 		5E51ADB51E6D8D09006AC655 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5E51ADB41E6D8D09006AC655 /* Assets.xcassets */; };
 		5E51ADB81E6D8D09006AC655 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E51ADB61E6D8D09006AC655 /* LaunchScreen.storyboard */; };
+		5E51ADC11E6D8F63006AC655 /* FullscreenCellNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E51ADC01E6D8F63006AC655 /* FullscreenCellNode.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0863F6A92F13D74927113E1D /* Pods-ActivityIndicatorASDKPagerNode.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ActivityIndicatorASDKPagerNode.release.xcconfig"; path = "Pods/Target Support Files/Pods-ActivityIndicatorASDKPagerNode/Pods-ActivityIndicatorASDKPagerNode.release.xcconfig"; sourceTree = "<group>"; };
+		1909AEFA62C501C61AC10D53 /* Pods-ActivityIndicatorASDKPagerNode.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ActivityIndicatorASDKPagerNode.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ActivityIndicatorASDKPagerNode/Pods-ActivityIndicatorASDKPagerNode.debug.xcconfig"; sourceTree = "<group>"; };
 		5E51ADA51E6D8D09006AC655 /* ActivityIndicatorASDKPagerNode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ActivityIndicatorASDKPagerNode.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E51ADA91E6D8D09006AC655 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		5E51ADAB1E6D8D09006AC655 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		5E51ADAC1E6D8D09006AC655 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		5E51ADAF1E6D8D09006AC655 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5E51ADB11E6D8D09006AC655 /* RootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
 		5E51ADB21E6D8D09006AC655 /* RootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
 		5E51ADB41E6D8D09006AC655 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5E51ADB71E6D8D09006AC655 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5E51ADB91E6D8D09006AC655 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5E51ADBF1E6D8F63006AC655 /* FullscreenCellNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FullscreenCellNode.h; sourceTree = "<group>"; };
+		5E51ADC01E6D8F63006AC655 /* FullscreenCellNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FullscreenCellNode.m; sourceTree = "<group>"; };
+		BBC6AF383D6884A8C991B081 /* libPods-ActivityIndicatorASDKPagerNode.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ActivityIndicatorASDKPagerNode.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +38,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4DBE043A01A3C8D6F36D0920 /* libPods-ActivityIndicatorASDKPagerNode.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,6 +50,8 @@
 			children = (
 				5E51ADA71E6D8D09006AC655 /* ActivityIndicatorASDKPagerNode */,
 				5E51ADA61E6D8D09006AC655 /* Products */,
+				DC424781CAC261665B9F815A /* Pods */,
+				CAC740293143692DF4630429 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -60,9 +68,10 @@
 			children = (
 				5E51ADAB1E6D8D09006AC655 /* AppDelegate.h */,
 				5E51ADAC1E6D8D09006AC655 /* AppDelegate.m */,
-				5E51ADAE1E6D8D09006AC655 /* Main.storyboard */,
 				5E51ADB11E6D8D09006AC655 /* RootViewController.h */,
 				5E51ADB21E6D8D09006AC655 /* RootViewController.m */,
+				5E51ADBF1E6D8F63006AC655 /* FullscreenCellNode.h */,
+				5E51ADC01E6D8F63006AC655 /* FullscreenCellNode.m */,
 				5E51ADB41E6D8D09006AC655 /* Assets.xcassets */,
 				5E51ADB61E6D8D09006AC655 /* LaunchScreen.storyboard */,
 				5E51ADB91E6D8D09006AC655 /* Info.plist */,
@@ -79,6 +88,23 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		CAC740293143692DF4630429 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BBC6AF383D6884A8C991B081 /* libPods-ActivityIndicatorASDKPagerNode.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DC424781CAC261665B9F815A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1909AEFA62C501C61AC10D53 /* Pods-ActivityIndicatorASDKPagerNode.debug.xcconfig */,
+				0863F6A92F13D74927113E1D /* Pods-ActivityIndicatorASDKPagerNode.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -86,9 +112,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5E51ADBC1E6D8D09006AC655 /* Build configuration list for PBXNativeTarget "ActivityIndicatorASDKPagerNode" */;
 			buildPhases = (
+				231C9E8799C4A7DA8A908DE0 /* [CP] Check Pods Manifest.lock */,
 				5E51ADA11E6D8D09006AC655 /* Sources */,
 				5E51ADA21E6D8D09006AC655 /* Frameworks */,
 				5E51ADA31E6D8D09006AC655 /* Resources */,
+				CAC03250B5C3BCE31CEE3D82 /* [CP] Embed Pods Frameworks */,
+				B2C372E911B269A31CAC5C7E /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -140,17 +169,65 @@
 			files = (
 				5E51ADB81E6D8D09006AC655 /* LaunchScreen.storyboard in Resources */,
 				5E51ADB51E6D8D09006AC655 /* Assets.xcassets in Resources */,
-				5E51ADB01E6D8D09006AC655 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		231C9E8799C4A7DA8A908DE0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		B2C372E911B269A31CAC5C7E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ActivityIndicatorASDKPagerNode/Pods-ActivityIndicatorASDKPagerNode-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CAC03250B5C3BCE31CEE3D82 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ActivityIndicatorASDKPagerNode/Pods-ActivityIndicatorASDKPagerNode-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		5E51ADA11E6D8D09006AC655 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5E51ADC11E6D8F63006AC655 /* FullscreenCellNode.m in Sources */,
 				5E51ADAD1E6D8D09006AC655 /* AppDelegate.m in Sources */,
 				5E51ADAA1E6D8D09006AC655 /* main.m in Sources */,
 				5E51ADB31E6D8D09006AC655 /* RootViewController.m in Sources */,
@@ -160,14 +237,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		5E51ADAE1E6D8D09006AC655 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				5E51ADAF1E6D8D09006AC655 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		5E51ADB61E6D8D09006AC655 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -269,6 +338,7 @@
 		};
 		5E51ADBD1E6D8D09006AC655 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1909AEFA62C501C61AC10D53 /* Pods-ActivityIndicatorASDKPagerNode.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = XGY89JJ86Q;
@@ -281,6 +351,7 @@
 		};
 		5E51ADBE1E6D8D09006AC655 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0863F6A92F13D74927113E1D /* Pods-ActivityIndicatorASDKPagerNode.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = XGY89JJ86Q;
@@ -310,6 +381,7 @@
 				5E51ADBE1E6D8D09006AC655 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
